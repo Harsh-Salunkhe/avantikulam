@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Centuary 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    background-image: url(./31193.jpg);
+    height:80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    list-style-type: none;
+    float:right;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color:#FBFBFB;
+    padding: 5px 20px;
+    border: 5px 20px;
+    border: 1px solid #C4D9FF;
+}
+ul li a:hover{
+    background-color: #F2EFE7;
+    color: #9ACBD0;
+    transition: 0.6s ease;
+}
+.logo img{
+    float:left;
+    width:100px;
+    height:auto;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.pimg2{
+    background-image: url(./5689822.jpg);
+    min-height: 400px;
+}
+.pimg1,.pimg2{
+    position:relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext{
+    position:absolute;
+    top:300px;
+   width:100%; 
+   text-align: center;
+   color:black;
+   font-size:28px;
+   letter-spacing: 8px;
+   text-transform: uppercase;
+   
+}
+.textBg{
+    background-color:#313534 ;
+    color:#fff;
+    padding:20px;
+}
+.section{
+    padding:50px 80px;
+    text-align: center;
+    
+}
+.section-light{
+    background-color: #282e34;
+    color:#ddd;
+}
+.ptext2{
+    position:absolute;
+    top:50%;
+   width:100%; 
+   text-align: center;
+   color:black;
+   font-size:27px;
+   letter-spacing: 8px;
+   text-transform: uppercase;
+  
+   
+}
+.textBg2{
+    background-color:grey ;
+    color:white;
+    padding:20px;
+}
+.a,.b{
+    background-color: #2973B2;
+}
+@media (max-width: 1201px){
+    html{
+        width: 100%;
+    }
+    }
+    @media(min-width:992px) and (max-width:1200px)
+    {
+        html{
+
+            width: 100%;
+            font-size: 80%;
+        }
+        .textBg{
+           width:100%;
+           font-size:80%;
+        }
+    }
+    @media(max-width:768px)and (max-width:991px)
+    {
+        html{
+
+            width: 100%;
+            font-size: 70%
+        }
+        .textBg{
+            width:100%;
+            font-size:70%;
+         }
+         .textBg2{
+            width:100%;
+            font-size:70%;
+         }
+    }
+    @media(min-width:600px) and (max-width:767px)
+    {
+        html{
+
+            width: 100%;
+            font-size: 60%;
+        }
+        .textBg{
+            width:100%;
+            font-size:60%;
+         }
+         .textBg2{
+            width:100%;
+            font-size:60%;
+         }
+    }
+    @media(max-width:599px) 
+    {
+        html{
+
+            width: 100%;
+            font-size: 50%;
+        }
+        .textBg{
+            width:100%;
+            font-size:50%;
+         }
+         .textBg2{
+            width:100%;
+            font-size:50%;
+         }
+        
+
+    }
+    p{
+        font-size:large ;
+    }
+    
